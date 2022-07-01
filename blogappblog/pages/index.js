@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=demetris-app"></script>
+      
       </main>
 
       <footer className={styles.footer}>
