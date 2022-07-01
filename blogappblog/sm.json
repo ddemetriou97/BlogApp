@@ -5,6 +5,6 @@
     "@/slices"
   ],
   "framework": "previousNext",
-  "localSliceSimulatorURL": "http://localhost:3001/slice-simulator"
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
 
 }

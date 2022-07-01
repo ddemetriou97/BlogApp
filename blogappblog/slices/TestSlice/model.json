@@ -14,7 +14,7 @@
         "title": {
           "type": "StructuredText",
           "config": {
-            "label": "The Lude Blog",
+            "label": "Title",
             "placeholder": "This is where it all begins...",
             "allowTargetBlank": true,
             "single": "heading1"

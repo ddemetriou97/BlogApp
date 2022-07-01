@@ -22,7 +22,7 @@
                 "title": {
                   "type": "StructuredText",
                   "config": {
-                    "label": "The Lude Blog",
+                    "label": "Title",
                     "placeholder": "This is where it all begins...",
                     "allowTargetBlank": true,
                     "single": "heading1"
@@ -63,14 +63,14 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Transition synergistic architectures",
+                  "text": "Productize holistic initiatives",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Cillum nulla eiusmod duis dolor occaecat ullamco mollit sit in mollit incididunt proident magna Lorem voluptate. Ullamco deserunt dolore mollit duis ut.",
+                  "text": "Non ea enim pariatur aliquip nostrud id duis. Incididunt minim reprehenderit velit est magna cillum ea mollit fugiat consectetur.",
                   "spans": []
                 }
               ],
@@ -90,7 +90,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Red Tower\\Desktop\\BlogApp\\blogappblog\\.slicemachine\\assets\\slices\\TestSlice\\default\\preview.png",
+            "width": 800,
+            "height": 94
+          }
+        }
       }
     }
   }
