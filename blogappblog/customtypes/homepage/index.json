@@ -5,15 +5,20 @@
   "status": true,
   "json": {
     "Main": {
-      "slices": {
-        "type": "Slices",
-        "fieldset": "Slice Zone",
+      "uid": {
+        "type": "UID",
         "config": {
-          "choices": {
-            "test_slice": {
-              "type": "SharedSlice"
-            }
-          }
+          "label": "Uid",
+          "placeholder": ""
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading1"
         }
       }
     }

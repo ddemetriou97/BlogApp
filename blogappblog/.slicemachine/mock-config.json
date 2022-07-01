@@ -1,6 +1,13 @@
 {
   "_cts": {
-    "homepage": {}
+    "homepage": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    }
   },
   "slices": {
     "TestSlice": {

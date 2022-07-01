@@ -1,6 +1,14 @@
 {
-  "id": "51156720-ec27-4051-bf15-eacb7f872ec8",
-  "uid": "et-consequatur-aspernatur",
+  "id": "94f3c506-b2c2-439f-805d-fa2b80756654",
+  "uid": "tempore-deserunt-dolore",
   "type": "homepage",
-  "data": {}
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Harness B2C e-markets",
+        "spans": []
+      }
+    ]
+  }
 }
