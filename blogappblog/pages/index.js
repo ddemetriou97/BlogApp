@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import styles from '../styles/Home.module.css'
 import HomePage from '../components/HomePage'
 import { client } from '../prismicConfig'
-import convertPrismicHPToReadable from '../convertPrismicHPToReadable'
+import convertPrismicHPToReadable from '../convertPrismicHPtoReadable'
 
 export async function getStaticProps(context) {
 
