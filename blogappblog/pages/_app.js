@@ -1,27 +1,21 @@
 import '../styles/globals.css'
-import Link from 'next/link'
-import { PrismicProvider } from '@prismicio/react'
-import { PrismicPreview } from '@prismicio/next'
-import { linkResolver, repositoryName } from '../prismicio'
+import Head from 'next/head'
+import { UserProvider } from '@auth0/nextjs-auth0'
 
 function MyApp({ Component, pageProps }) {
-  return (
+  return(
+    <>
+    <UserProvider>
+    <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
     
-    <PrismicProvider
-          linkResolver={linkResolver}
-          internalLinkComponent={({ href, children, ...props }) => (
-            <Link href={href}>
-              <a {...props}>
-                {children}
-              </a>
-            </Link>
-          )}
-        >
-    <PrismicPreview repositoryName={repositoryName}>
-            <Component {...pageProps} />
-    </PrismicPreview>
-    </PrismicProvider>
+    <Component {...pageProps} />
+    </UserProvider>
+    </>
   )
+
+  
 }
 
 export default MyApp

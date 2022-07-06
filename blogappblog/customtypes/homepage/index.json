@@ -5,11 +5,12 @@
   "status": true,
   "json": {
     "Main": {
-      "uid": {
-        "type": "UID",
+      "backgroundImage": {
+        "type": "Image",
         "config": {
-          "label": "Uid",
-          "placeholder": ""
+          "label": "Background Image",
+          "constraint": {},
+          "thumbnails": []
         }
       },
       "title": {
@@ -19,6 +20,26 @@
           "placeholder": "",
           "allowTargetBlank": true,
           "single": "heading1"
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "test_slice": {
+              "type": "SharedSlice"
+            }
+          }
         }
       }
     }

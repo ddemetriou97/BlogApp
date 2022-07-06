@@ -1,0 +1,22 @@
+.main{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.title{
+    padding: 0 2rem;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.post{
+    margin-bottom: 2rem;
+}
+  
+.post:not(:last-child){
+    border-bottom: 0.1rem solid #ccc;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  
