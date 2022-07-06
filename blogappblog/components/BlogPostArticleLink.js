@@ -1,6 +1,6 @@
 import styles from '../styles/BlogPostArticleLink.module.css'
 import Link from 'next/link'
-import formatDate from '../components/formatDate'
+
 
 export default function BlogPostArticleLink({ slug, title , date})
 {
@@ -12,7 +12,6 @@ export default function BlogPostArticleLink({ slug, title , date})
                 </a>
             </Link>  
 
-            <datetime>{formatDate(date)}</datetime>
         </article>
         
     )

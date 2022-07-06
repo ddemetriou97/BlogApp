@@ -22,7 +22,7 @@ export default function HomePage({ title, description, backgroundImage})
         <div className={styles.backgroundImage}>
             <div className={styles.details}>
                 <h1>{title}</h1>
-                <h3>description</h3>
+                <h3>{description}</h3>
                 <Link href="/allPosts">
                 <button>Go to posts</button>
                 </Link>

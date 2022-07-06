@@ -8,6 +8,7 @@ export default function BlogPost({ slug, title, content, isMainPage})
     const htmlContent = useMemo(() => marked(content), [content])
 
     return (
+        <div className={styles.main}>
         <article className={styles.post}>
             {
                 slug ? 
@@ -34,6 +35,6 @@ export default function BlogPost({ slug, title, content, isMainPage})
 
             
         </article>
-        
+        </div>
     )
 }

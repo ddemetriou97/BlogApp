@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import styles from '../styles/allPosts.module.css'
-import BlogPost from '../components/BlogPost'
+import BlogPostArticleLink from '../components/BlogPostArticleLink'
 import { client } from '../prismicConfig'
 import convertPrismicDataToReadable from '../convertPrismicDataToReadable'
 
@@ -39,7 +39,7 @@ export default function allPosts({posts}) {
     {
         posts.map(p => (
           <div className={styles.post} key={p.slug}>
-            <BlogPost {...p} />
+            <BlogPostArticleLink {...p} />
           </div>
         ))
         }

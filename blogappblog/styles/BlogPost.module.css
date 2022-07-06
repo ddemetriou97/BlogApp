@@ -1,3 +1,9 @@
+.main{
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+
+
 .post{
 padding: 0 2rem;
 }
