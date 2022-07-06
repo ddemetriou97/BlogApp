@@ -21,8 +21,8 @@ export default function HomePage({ title, description, backgroundImage})
         
         <div className={styles.backgroundImage}>
             <div className={styles.details}>
-                <h1>I am Demetris Demetriou</h1>
-                <h3>And this is my blog</h3>
+                <h1>{title}</h1>
+                <h3>description</h3>
                 <Link href="/allPosts">
                 <button>Go to posts</button>
                 </Link>
