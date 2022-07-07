@@ -11,7 +11,6 @@ export async function getStaticProps(context) {
 
   const posts = blogPosts.map(convertPrismicHPToReadable)
 
-  //console.log("Posts:" + JSON.stringify(posts))
 
   return {
     props: {

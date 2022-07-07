@@ -8,15 +8,7 @@ import convertPrismicDataToReadable from '../convertPrismicDataToReadable'
 
 export async function getStaticProps(context) {
   
-
   const data = await client.getByUID("blog-post", context.params.slug)
-
-  //console.log(JSON.stringify(blogPost))
-  //console.log(context)
-
-  // const posts = blogPost.map(convertPrismicDataToReadable)
-  
-  // console.log(posts)
 
   return {
     props: {

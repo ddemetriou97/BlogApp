@@ -2,6 +2,7 @@ import Header from '../components/Header'
 import styles from '../styles/AboutPage.module.css'
 import { withPageAuthRequired } from '@auth0/nextjs-auth0'
 
+
 export default function About() {
     return (
       <>

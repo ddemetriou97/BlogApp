@@ -9,12 +9,8 @@ export async function getStaticProps(context) {
   
   const blogPosts = await client.getAllByType('blog-post')
 
-  //console.log(JSON.stringify(blogPosts))
-
   const posts = blogPosts.map(convertPrismicDataToReadable)
   
-  //console.log(posts)
-
   return {
     props: {
       posts,
