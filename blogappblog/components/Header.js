@@ -23,6 +23,9 @@ export default function Header(){
             <Link href="/api/auth/logout">
                 <a>Sign Out</a>
             </Link>
+            <Link href="/Contact">
+                <a>Contact</a>
+            </Link>
             
            
             </div>
@@ -43,7 +46,9 @@ export default function Header(){
                 <Link href="/api/auth/login">
                     <a>Sign in</a>
                 </Link>
-                
+                <Link href="/Contact">
+                <a>Contact</a>
+                </Link>
                
                 </div>
             </header>
